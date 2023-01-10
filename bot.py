@@ -8,11 +8,11 @@ import os
 from functools import wraps
 import requests
 
-API_KEY = os.environ.get("API_KEY","") 
+API_KEY = os.environ.get("API_KEY","172688493788957") 
 
-TOKEN = os.environ.get("BOT_TOKEN","")
+TOKEN = os.environ.get("BOT_TOKEN","5981108564:AAGOFTPuIUHcjIIsWcdrcbw1p-10J9USy6c")
 
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "Nischayyadav")
 
 def send_typing_action(func):
     """Sends typing action while processing func command."""
